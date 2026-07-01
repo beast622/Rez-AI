@@ -3,7 +3,7 @@ from chatbot import ask_gemini
 from config import client
 
 print("====================================")
-print("🤖 Welcome to Rèz v0.2")
+print("🤖 Welcome to Rèz v0.3")
 print("====================================")
 
 load_history()
@@ -17,7 +17,8 @@ while True:
         break
 
     try:
-        reply = ask_gemini(client, user)
+        history = get_history()
+        reply = ask_gemini(client, history)
 
         print("\nRèz:", reply)
         add_message("assistant", reply)

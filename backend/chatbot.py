@@ -1,10 +1,12 @@
-from google import genai
+def ask_gemini(client, history):
+    conversation = ""
 
+    for message in history:
+        conversation += f"{message['role']}: {message['message']}\n"
 
-def ask_gemini(client, message):
     response = client.models.generate_content(
         model="gemini-2.5-flash",
-        contents=message,
+        contents=conversation,
     )
 
     return response.text
