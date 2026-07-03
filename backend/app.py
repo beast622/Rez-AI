@@ -3,14 +3,14 @@ from memory import (
     get_history,
     load_history,
     load_profile,
-    set_profile,
     get_profile_value
 )
 from chatbot import ask_gemini
 from config import client
+from memory_engine import process_memory
 
 print("====================================")
-print("🤖 Welcome to Rèz v0.5")
+print("🤖 Welcome to Rèz v0.6")
 print("====================================")
 
 load_history()
@@ -44,19 +44,9 @@ while True:
         print("\nRèz:", response.reply)
         add_message("assistant", response.reply)
 
-        # AI decides what to remember
-        if response.memory.remember:
-            set_profile(
-                response.memory.key,
-                response.memory.value
-            )
-
-            print(
-                f"\n🧠 Remembered: "
-                f"{response.memory.key} = {response.memory.value}"
-            )
-        else:
-            print("\n🧠 Nothing to remember.")
+        # Let the Memory Engine handle all memory
+        result = process_memory(response.memory)
+        print("\n" + result)
 
     except Exception as e:
         error = str(e)

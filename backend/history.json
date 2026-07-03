@@ -6,5 +6,125 @@
     {
         "role": "user",
         "message": "exit"
+    },
+    {
+        "role": "user",
+        "message": "My favourite team is Spain"
+    },
+    {
+        "role": "assistant",
+        "message": "It's great to know that your favorite team is Spain!"
+    },
+    {
+        "role": "user",
+        "message": "My favourite team is Spain"
+    },
+    {
+        "role": "assistant",
+        "message": "It's great to know that your favorite team is Spain!"
+    },
+    {
+        "role": "user",
+        "message": "Actually my favourite team is Brazil"
+    },
+    {
+        "role": "assistant",
+        "message": "Thank you for clarifying! I've updated your favorite team to Brazil."
+    },
+    {
+        "role": "user",
+        "message": "My favourite team is Spain"
+    },
+    {
+        "role": "assistant",
+        "message": "Okay, I've noted that your favorite team is Spain."
+    },
+    {
+        "role": "user",
+        "message": "My favourite team is Spain"
+    },
+    {
+        "role": "assistant",
+        "message": "Got it! Your favorite team is Spain."
+    },
+    {
+        "role": "user",
+        "message": "Actually my favourite team is Brazil"
+    },
+    {
+        "role": "assistant",
+        "message": "Thank you for clarifying! I've updated your favorite team to Brazil."
+    },
+    {
+        "role": "user",
+        "message": "My favourite team is Spain"
+    },
+    {
+        "role": "assistant",
+        "message": "Okay, I've noted that your favorite team is Spain."
+    },
+    {
+        "role": "user",
+        "message": "My name is David"
+    },
+    {
+        "role": "assistant",
+        "message": "Nice to meet you, David!"
+    },
+    {
+        "role": "user",
+        "message": "My favourite team is Spain"
+    },
+    {
+        "role": "assistant",
+        "message": "Got it! Your favorite team is Spain."
+    },
+    {
+        "role": "user",
+        "message": "I'm building an AI assistant called Rèz"
+    },
+    {
+        "role": "assistant",
+        "message": "That's a very interesting project! What aspects of building Rèz are you focusing on?"
+    },
+    {
+        "role": "user",
+        "message": "My name is David"
+    },
+    {
+        "role": "assistant",
+        "message": "Nice to meet you, David!"
+    },
+    {
+        "role": "user",
+        "message": "exit"
+    },
+    {
+        "role": "user",
+        "message": "My name is David"
+    },
+    {
+        "role": "assistant",
+        "message": "It's nice to meet you, David!"
+    },
+    {
+        "role": "user",
+        "message": "My favourite team is Spain"
+    },
+    {
+        "role": "assistant",
+        "message": "Okay, I've noted that your favorite team is Spain."
+    },
+    {
+        "role": "user",
+        "message": "I'm building an AI assistant called Rèz"
+    },
+    {
+        "role": "assistant",
+        "message": "That sounds like a fascinating project! I'll make sure to remember that you're building an AI assistant called Rèz."
+    },
+    {
+        "role": "user",
+        "message": "exit"
     }
 ]
