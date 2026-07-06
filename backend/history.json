@@ -126,5 +126,109 @@
     {
         "role": "user",
         "message": "exit"
+    },
+    {
+        "role": "user",
+        "message": "What do you remember about me?"
+    },
+    {
+        "role": "user",
+        "message": "What's my favorite team?"
+    },
+    {
+        "role": "assistant",
+        "message": "I don't have any information about your favorite team at the moment, as I'm a new instance and haven't had a chance to remember anything yet!"
+    },
+    {
+        "role": "user",
+        "message": "exit\\"
+    },
+    {
+        "role": "assistant",
+        "message": "Goodbye! Have a great day!"
+    },
+    {
+        "role": "user",
+        "message": "exit"
+    },
+    {
+        "role": "user",
+        "message": "whats my favourite team?"
+    },
+    {
+        "role": "assistant",
+        "message": "I don't have any information about your favorite team in my memory. Would you like to tell me what it is?"
+    },
+    {
+        "role": "user",
+        "message": "exit"
+    },
+    {
+        "role": "user",
+        "message": "what's my favourite team?"
+    },
+    {
+        "role": "user",
+        "message": "what is my name?"
+    },
+    {
+        "role": "user",
+        "message": "what am i building?"
+    },
+    {
+        "role": "user",
+        "message": "exit"
+    },
+    {
+        "role": "user",
+        "message": "whats my fav team"
+    },
+    {
+        "role": "user",
+        "message": "whats my fav team"
+    },
+    {
+        "role": "user",
+        "message": "exit"
+    },
+    {
+        "role": "user",
+        "message": "whats my fav team"
+    },
+    {
+        "role": "user",
+        "message": "exit"
+    },
+    {
+        "role": "user",
+        "message": "whats my fav team"
+    },
+    {
+        "role": "user",
+        "message": "what am i building"
+    },
+    {
+        "role": "user",
+        "message": "what do you remember about me?"
+    },
+    {
+        "role": "user",
+        "message": "exit"
+    },
+    {
+        "role": "user",
+        "message": "whats my fav team"
+    },
+    {
+        "role": "user",
+        "message": "hello"
+    },
+    {
+        "role": "assistant",
+        "message": "Hello there! How can I help you today?"
+    },
+    {
+        "role": "user",
+        "message": "exit"
     }
 ]
